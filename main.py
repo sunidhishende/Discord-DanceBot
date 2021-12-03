@@ -17,7 +17,7 @@ client= commands.Bot(command_prefix='++')
 @client.event
 async def on_message(message):
     if message.content.startswith('Hello'):
-        responses= ['Fuck off', 'Bitch seriously, Hello?', 'Umm What are you?', 'You are just a sad child who cannot accept that life is meaningless']
+        responses= ['Hi!', 'How you doin?', 'Hello Friend!', 'Hey There!']
         await message.channel.send(random.choice(responses))
     await client.process_commands(message)
 
