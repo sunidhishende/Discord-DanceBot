@@ -120,4 +120,4 @@ async def vote(ctx, *options):
 
 
 # Run the bot on the server
-client.run('ODQ1NTM0MTkxMzIwMDM5NDM1.YKiXFA.mi127AeH9jpAg4x9zCb9mhWJ1lE')
+client.run(#'Enter your token here')
